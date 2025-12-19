@@ -18,10 +18,10 @@ h2 {
 .container {
     width: 100%;
     margin: auto;
-    padding: 10px;
+    padding: 10px 10px 10px 100px; /* deja espacio al logo */
     text-align: center;
     background-color: rgb(83, 83, 83);
-    position: relative; /* MUY IMPORTANTE */
+    position: relative;
 }
 
 .container h1 {
@@ -41,12 +41,12 @@ h2 {
 
 .container img {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 15px;
+    left: 15px;
     width: 75px;
     height: auto;
 }
-      
+
 
 
 /* el footer lo hemos puesto porque es lo del copyright, se puede editar aqui abajo por lo que se necesite */
