@@ -54,3 +54,16 @@ h2 {
     padding-left: 20px;
     color: #f1ee09;
 }
+
+.presentation {
+    background-color: #222222;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: auto;
+}
+
+.presentation h2 {
+    margin: 10px;
+    color: #f1ee09;
+}
