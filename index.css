@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+/*esta parte es de body y h2, se puede editar si se quiere cambiar algo*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #363636;
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+/* Parte container, aqui puedes añadir estilos y editar cosas (recordar si se me olvida) */
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(83, 83, 83);
+}
+
+.container h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #e6e209;
+    text-shadow: 2px 2px 4px black;
+}
+
+.container p {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0;
+    color: #08a8cf;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+/* el footer lo hemos puesto porque es lo del copyright, se puede editar aqui abajo por lo que se necesite */
+.footer {
+    background-color: #222222;
+    text-align: left;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer p {
+    margin: 10px;
+    padding-left: 20px;
+    color: #f1ee09;
+}
