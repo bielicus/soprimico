@@ -54,17 +54,7 @@ h2 {
     height: auto;
 }
 
-.container h2 {
-    padding: 1px;
-    margin: 0;
-    color: #000;
-    font-size: 16px;
-    font-weight: 700;
-    background-color: #c7c40e;
-    bottom: 0;
-    width: 100%;
-    z-index: 1000;
-}
+
 
 
 
@@ -87,3 +77,16 @@ h2 {
 /* la presentacion es la barra amarilla de arriba(de que se ve en la web), se puede editar aqui abajo por lo que se necesite */
 
 
+.Adv h2 {
+    margin: 0;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #c7c40e;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    nav-up: 0;
+    left: 0;
+    z-index: 1000;
+}
