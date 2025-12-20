@@ -184,7 +184,7 @@ button:hover {
 /* Cards Roblox */
 .roblox {
     background-color: #8b2c2c; /* rojo sólido */
-    background-image: url("Imgs/PetSimMisteryBox10Pets.jpg");
+    background-image: url("Imgs/PetSimfondo.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -334,4 +334,86 @@ button:hover {
     right: 20px;
     width: 100px 50px;
     height: auto;
+    background-color: #f1ee09;
+    color: black;
+    font-weight: bold;
+}
+
+.robloxitems {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    size: 100px 50px;
+    background-color: rgb(170, 20, 170);
+}
+
+.robloxitems {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #0b0f16;
+}
+
+/* CARD */
+.itemcard {
+    background-color: #cb1dee;
+    color: #ffffff;
+    width: 300px;
+    border-radius: 16px;
+    padding: 20px;
+    border: 2px solid #222;
+    box-shadow: 0 8px 16px rgba(211, 6, 211, 0.4); 
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.itemcard:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(191, 6, 228, 0.6);
+}
+
+/* TEXTO */
+.itemcard h2 {
+    font-size: 17px;
+    line-height: 1.3;
+    margin-bottom: 12px;
+}
+
+.itemcard p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+
+/* IMAGEN */
+.itemcard img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    margin-bottom: 15px;
+}
+
+.itemcard button {
+    background-color: #ff4757;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.itemcard button:hover {
+    background-color: #ff6b81;
+    transform: scale(1.05);
+}
+
+.itemcard button:active {
+    transform: scale(0.98);
 }
